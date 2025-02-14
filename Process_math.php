@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($output === null) {
         echo "<html><body><h1>Error: No output returned from Python script.</h1></body></html>";
     } else {
-        echo "<html><body style='font-size:30px; background-color: #ffd3ca '><h1>".$output."</h1></body></html>";
+        echo "<html><body style='font-size:30px; background-color: #ffd3ca;font-weight: bold '><h1>".$output."</h1></body></html>";
     }
 }
 ?>
