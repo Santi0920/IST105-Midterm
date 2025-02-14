@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     $output = shell_exec($command);
-
+    
     if ($output === null) {
         echo "<html><body><h1>Error: No output returned from Python script.</h1></body></html>";
     } else {

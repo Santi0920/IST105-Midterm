@@ -8,7 +8,7 @@
 <body>
     <div class="container shadow rounded mt-5 p-3 fs-1 bg-secondary-subtle">
         <h1 class="fs-1 fw-bold">Math Operations</h1>
-        <form action="process_math.php" method="post">
+        <form action="Process_math.php" method="post">
             <label for="number1">Number 1:</label>
             <input type="text" id="number1" name="number1" required>
             <br><br>
